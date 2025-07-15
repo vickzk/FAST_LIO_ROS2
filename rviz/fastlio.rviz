@@ -7,7 +7,6 @@ Panels:
         - /Global Options1
         - /Status1
         - /TF1/Frames1
-        - /LaserScan1
       Splitter Ratio: 0.5
     Tree Height: 707
   - Class: rviz_common/Selection
@@ -39,53 +38,53 @@ Visualization Manager:
       Frames:
         All Enabled: false
         base_footprint:
-          Value: false
+          Value: true
         base_link:
           Value: true
         camera_dock_link:
-          Value: false
+          Value: true
         camera_dock_link_optical:
-          Value: false
+          Value: true
         imu_link:
-          Value: false
+          Value: true
         inertial_link:
-          Value: false
+          Value: true
         left_laser_link:
-          Value: false
+          Value: true
         navsat_link:
-          Value: false
+          Value: true
         odom:
           Value: true
         right_laser_link:
-          Value: false
+          Value: true
         rs_lidar_2d_link:
-          Value: false
+          Value: true
         rs_lidar_link:
-          Value: false
+          Value: true
         ultrasonic_0_link:
-          Value: false
+          Value: true
         ultrasonic_10_link:
-          Value: false
+          Value: true
         ultrasonic_11_link:
-          Value: false
+          Value: true
         ultrasonic_1_link:
-          Value: false
+          Value: true
         ultrasonic_2_link:
-          Value: false
+          Value: true
         ultrasonic_3_link:
-          Value: false
+          Value: true
         ultrasonic_4_link:
-          Value: false
+          Value: true
         ultrasonic_5_link:
-          Value: false
+          Value: true
         ultrasonic_6_link:
-          Value: false
+          Value: true
         ultrasonic_7_link:
-          Value: false
+          Value: true
         ultrasonic_8_link:
-          Value: false
+          Value: true
         ultrasonic_9_link:
-          Value: false
+          Value: true
       Marker Scale: 10
       Name: TF
       Show Arrows: true
@@ -275,8 +274,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 32.01359939575195
-        Min Value: -4.566710948944092
+        Max Value: 14.828349113464355
+        Min Value: -11.059354782104492
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -358,7 +357,7 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: FlatColor
       Decay Time: 0
-      Enabled: true
+      Enabled: false
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Max Intensity: 0
@@ -368,17 +367,17 @@ Visualization Manager:
       Position Transformer: XYZ
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.5
+      Size (m): 0.029999999329447746
       Style: Flat Squares
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /cloud_registered
+        Value: /cloud_pcd
       Use Fixed Frame: true
       Use rainbow: true
-      Value: true
+      Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -459,25 +458,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 260.8397216796875
+      Distance: 82.326416015625
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -21.650659561157227
-        Y: 21.058504104614258
-        Z: -79.25086975097656
+        X: 4.414088726043701
+        Y: 6.859274387359619
+        Z: 2.9849464893341064
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.5447965860366821
-      Target Frame: <Fixed Frame>
+      Pitch: 1.5697963237762451
+      Target Frame: base_link
       Value: Orbit (rviz_default_plugins)
-      Yaw: 2.2377567291259766
+      Yaw: 2.372755527496338
     Saved: ~
 Window Geometry:
   Displays:
